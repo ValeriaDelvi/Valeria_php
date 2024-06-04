@@ -6,6 +6,8 @@ table, th, td {
 }
 </style>
 
+
+
 <table style="width:80%; border: 1px; ">
     <tr>
      <td colspan="2">OFFERTA</td>
@@ -18,3 +20,20 @@ table, th, td {
       <td>prezzo</td>
     </tr>
 </table>
+
+<h1>FORM DOMANDA</h1>
+
+<form action="/action_page.php">
+  <label for="dom">Prezzo Domanda:</label>
+  <input type="text" id="dom" name="dom"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+<h1>FORM OFFERTA</h1>
+
+<form action="/action_page.php">
+  <label for="off">Prezzo Offerta:</label>
+  <input type="text" id="off" name="off"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
